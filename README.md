@@ -1,3 +1,5 @@
+[Ambient Config](https://www.notion.so/Configura-es-do-ambiente-React-76f2963a042f45b9b9b567a2795945b8) - [Layouts](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
