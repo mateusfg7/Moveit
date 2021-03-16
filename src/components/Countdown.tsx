@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { IoCheckmarkCircleSharp } from 'react-icons/io5'
 
 import styles from '../styles/components/Countdown.module.css';
 
@@ -54,7 +55,7 @@ export function Countdown() {
           disabled
           className={styles.countdownButton}
         >
-          Ciclo encerrado
+          <span>Ciclo encerrado</span>  <IoCheckmarkCircleSharp className={styles.checkIcon} />
         </button>
       ) : (
           <>
@@ -64,7 +65,7 @@ export function Countdown() {
                 className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
                 onClick={resetCountdown}
               >
-                Abandonar ciclo x
+                Abandonar ciclo
               </button>
             ) : (
                 <button
@@ -72,7 +73,7 @@ export function Countdown() {
                   className={styles.countdownButton}
                   onClick={startCountdown}
                 >
-                  Iniciar um ciclo >
+                  Iniciar um ciclo
                 </button>
               )}
           </>
